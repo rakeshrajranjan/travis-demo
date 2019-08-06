@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="content"><div v-html="message" @click.once="form('abc')"></div><a v-bind:class="{abc:valid}">{{message}} + {{form("Rakesh")}}</a></div>
+    
+    <script>
+        new Vue({
+            el:".content",
+            data: {
+                message: "<p>My name is rakesh</p>",
+                valid: false,
+            },
+            methods: {
+                form: function(msg) {
+                    console.log(msg)
+                }
+            }
+        })
+        </script>
+</body>
+</html>

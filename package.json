@@ -1,0 +1,26 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hint": "jshint js/*.js",
+    "test": "jest",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshrajranjan/travis-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeshrajranjan/travis-demo/issues"
+  },
+  "homepage": "https://github.com/rakeshrajranjan/travis-demo#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "jest": "^24.8.0",
+    "jshint": "^2.10.2"
+  }
+}
