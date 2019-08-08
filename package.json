@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hint": "jshint js/*.js",
+    "hint": "jshint js/",
     "test": "jest",
     "build": "gulp build"
   },
@@ -19,8 +19,14 @@
   },
   "homepage": "https://github.com/rakeshrajranjan/travis-demo#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
     "gulp": "^4.0.2",
     "jest": "^24.8.0",
     "jshint": "^2.10.2"
+  },
+  "jest": {
+    "verbose": true
   }
 }
