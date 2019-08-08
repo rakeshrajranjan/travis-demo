@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hint": "jshint js/",
+    "hint": "jshint js/ --exclude js/**/*.test.js",
     "test": "jest",
     "build": "gulp build"
   },

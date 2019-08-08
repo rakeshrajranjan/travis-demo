@@ -1,3 +1,4 @@
+"use strict";
 var abc = function(){
     var d = "abc text";
     return d;
@@ -5,4 +6,4 @@ var abc = function(){
 
 console.log(abc());
 
-export {abc}
+export {abc};
